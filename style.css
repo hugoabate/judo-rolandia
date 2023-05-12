@@ -76,7 +76,7 @@ main:after {
   background-color: black;
 }
 
-.menu-lateral {
+.side-menu {
   position: fixed;
   top: 0;
   right: 0;
@@ -87,19 +87,19 @@ main:after {
   min-height: 100vh;
 }
 
-.menu-lateral ul {
+.side-menu ul {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-.menu-lateral .icone {
+.side-menu .icon {
   width: 30px;
   filter: invert(1);
   transition: 0.3s ease-in-out;
 }
 
-.menu-lateral .icone:hover {
+.side-menu .icon:hover {
   transform: scale(1.2);
 }
 
